@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "OCZf8LwHXCGbX+ALd/6C1Uf4GT4S0FuvZwiLa/YYXSc=",
+  "Source": "AutoresApi",
+  "BasePath": "_content/AutoresApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AutoresApi\\wwwroot",
+      "Source": "AutoresApi",
+      "ContentRoot": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\",
+      "BasePath": "_content/AutoresApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\theFile.txt",
+      "SourceId": "AutoresApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\",
+      "BasePath": "_content/AutoresApi",
+      "RelativePath": "theFile.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\theFile.txt"
+    }
+  ]
+}
