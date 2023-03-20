@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\AutoresApi.csproj": {}
+    "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\AutoresApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\AutoresApi.csproj": {
+    "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\AutoresApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\AutoresApi.csproj",
+        "projectUniqueName": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\AutoresApi.csproj",
         "projectName": "AutoresApi",
-        "projectPath": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\AutoresApi.csproj",
+        "projectPath": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\AutoresApi.csproj",
         "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\obj\\",
+        "outputPath": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -89,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
