@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OCZf8LwHXCGbX+ALd/6C1Uf4GT4S0FuvZwiLa/YYXSc=",
+  "Hash": "q0vAG/lVpVMYaZl+5/7fqTIBTiwtZTidaorRicb6o2I=",
   "Source": "AutoresApi",
   "BasePath": "_content/AutoresApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AutoresApi\\wwwroot",
       "Source": "AutoresApi",
-      "ContentRoot": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\wwwroot\\",
       "BasePath": "_content/AutoresApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\theFile.txt",
+      "Identity": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\wwwroot\\theFile.txt",
       "SourceId": "AutoresApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Marc\\Documents\\Marc Morata\\Projects\\NetCoreProjects\\AutoresApi\\AutoresApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\wwwroot\\",
       "BasePath": "_content/AutoresApi",
       "RelativePath": "theFile.txt",
       "AssetKind": "All",

@@ -19,7 +19,7 @@ namespace AutoresApi.Controllers
             this._mapper = mapper;
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name ="obtenerLibros")]
         public async Task<ActionResult<BookGetDTO>> Get(int id)
         {
             var book = await _context.Books
@@ -30,7 +30,7 @@ namespace AutoresApi.Controllers
 
         }
 
-        [HttpPost]
+        [HttpPost(Name ="crearLibro")]
         public async Task<ActionResult> Post(BookCreationDTO bookDTO)
         {
             if(bookDTO.AutoresIds == null)

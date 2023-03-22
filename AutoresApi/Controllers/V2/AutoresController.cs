@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace AutoresApi.Controllers
+namespace AutoresApi.Controllers.V2
 {
     [ApiController]
-    [Route("api/[controller]")]//controller var that took ther name of the controller class (Autores)
+    [Route("api/v2/[controller]")]//controller var that took ther name of the controller class (Autores)
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "IsAdmin")]// autorizacoin in the whole controller
     public class AutoresController: ControllerBase
     {
@@ -35,36 +35,8 @@ namespace AutoresApi.Controllers
             this._mapper = mapper;
             _configuration = configuration;
         }
-
-        //Execute this methon in swagger UI for understand the type of service
-        [HttpGet("GUID")]
-        [AllowAnonymous]
-        [ResponseCache(Duration = 10)]
-        [ServiceFilter(typeof(myFilter))]
-        public ActionResult GetGuids()
-        {
-            return Ok(new
-            {
-                AutoresControllerTransient = _transient.guid,
-                ServiceA_transient = _service.GetTransient(),
-                AutoresControllerScoped = _scoped.guid,
-                ServiceA_scoped = _service.GetScoped(),
-                AutoresControllerSingleton = _singleton.guid,
-                ServiceA_singleton = _service.GetSingleton(),
-
-            });
-        }
-
-        [HttpGet("configuraciones")]
-        public ActionResult<string> getConfiguration()
-        {
-            return _configuration["lastName"];
-        }
-
-
-        [HttpGet(Name ="obtenerAutores")]
-        [HttpGet("list")]
-        [HttpGet("/myList")]//The Url only with /myList
+        
+        [HttpGet(Name ="obtenerAutoresV2")]
         public async Task<List<AutorGetDTO>> Get()
         {
             //_service.performTask();
@@ -85,20 +57,7 @@ namespace AutoresApi.Controllers
             return _mapper.Map<AutorGetDTO>(authors);
         }
 
-        [HttpGet("{name}")]
-        public async Task<ActionResult<List<AutorGetDTO>>> SpecificAuthor(string name)
-        {
-            var authors = await _context.Autores.Where(x => x.Name.Contains(name)).ToListAsync();
-
-            if (authors == null)
-            {
-                return NotFound("Is null");
-            }
-
-            return _mapper.Map<List<AutorGetDTO>>(authors);
-        }
-
-        [HttpPost (Name ="crearAutores")]
+        [HttpPost (Name ="crearAutoresV2")]
         public async  Task<ActionResult> Post(AutorCreationDTO autorDTO)
         {
             var exist = await _context.Autores.AnyAsync(x => x.Name == autorDTO.Name);

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Marc\\Documents\\My Stuff\\Proyects\\APIREST-NET6\\AutoresApi\\wwwroot\\theFile.txt",
+      "PackagePath": "staticwebassets\\theFile.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AutoresApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AutoresApi.props",
+      "PackagePath": "build\\AutoresApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoresApi.props",
+      "PackagePath": "buildMultiTargeting\\AutoresApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AutoresApi.props",
+      "PackagePath": "buildTransitive\\AutoresApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
